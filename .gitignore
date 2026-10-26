@@ -1,0 +1,23 @@
+# Virtual Environments
+.venv/
+__pycache__/
+
+# Datasets & Heavy Training Logs
+content_data/
+style_data/
+experiment/
+kaggle_package/
+
+# Scripts & Junk Files
+make_image_dataset_zip.py
+make_kaggle_zip.py
+tempCodeRunnerFile.py
+NeuralTexture_AI_code.zip
+
+# Ignore old weights, keep the final one
+decoder_10.pth
+
+# Ignore uploaded user images, but keep the folder structure
+static/uploads/*
+!static/uploads/.gitkeep
+*.pth
