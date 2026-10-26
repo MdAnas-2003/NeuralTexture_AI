@@ -20,4 +20,3 @@ decoder_10.pth
 # Ignore uploaded user images, but keep the folder structure
 static/uploads/*
 !static/uploads/.gitkeep
-*.pth
